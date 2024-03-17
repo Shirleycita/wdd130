@@ -70,7 +70,7 @@ footer {
     right: 10%;
     text-align: center;
     padding: 4px;
-    background: #beccd3;
+    background: rgba(225, 220, 220, 0.7);
 }
 .hero article {
     position: absolute;
@@ -79,7 +79,7 @@ footer {
     right: 10%;
     text-align: center;
     padding: 1rem;
-    background: #beccd3;
+    background: rgba(225, 220, 220, 0.7);
 }
 .hero article img {
     width: 40%;
