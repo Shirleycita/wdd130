@@ -55,7 +55,7 @@ footer {
 }
 .hero {
     position: relative;
-    margin-top: 10px auto;
+    margin: 10px auto;
 }
 .hero img {
     display: block;
