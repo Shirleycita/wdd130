@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Shirley Hatch | WDD 130 | Basic HTML and CSS Quiz</title>
+        <meta name="description" content="Shirley Hatch | WDD 130 | A simple quiz about html and css">
+        <meta name="author" content="Shirley Hatch">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1> ☑ Basic HTML and CSS Quiz </h1>
+        </header>
+        <main>
+            <form>
+                <div class="form-grid">
+                    <label for="q1">1. What does the acronym HTML stand for?</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="form-grid">
+                    <label for="q2">2. Write a border declaration to have a border 3px solid #000 on top, bottom, left and right.</label>
+                    <textarea name="q2" id="q2" rows="2" placeholder="Write the border shorthand declaration."></textarea>                
+                </div>
+                <div class="form-grid">
+                    <label for="q3">3. Which charset do we use when writing HTML?</label>
+                    <select name="q3" id="q3">
+                        <option value="" selected="">Choose One...</option>
+                        <option value="option_1">ISO-8859-2</option>
+                        <option value="option_2">Windows-874</option>
+                        <option value="option_3">UTF - 8 </option>
+                    </select>
+                </div>
+                <div class="form-grid">
+                    <label for="q4">4. What is the bottom margin given this declararion?</label>
+                    <div class="container">
+                        <span class="code">margin: 10px 5px 15px;</span>
+                    </div>
+                    <input type="number" id="q4" name="q4" min="1" max="15" required>               
+                </div>                     
+                <div class="end">
+                    <button type="submit">Submit Quiz</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>©2024 | Basic HTML and CSS Quiz | WDD 130</p>
+        </footer>
+    </body>
+</html>
